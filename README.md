@@ -1,6 +1,6 @@
 # bookstore
 
-A Java-based bookstore project. This repository contains the source code for a simple bookstore application, implemented in Java (repository language composition: Java 99.1%, CSS 0.9%). Use this README as a starting point — update sections below to reflect the exact build system, runtime, and features of your project.
+A Java-based bookstore project. This repository contains the source code for a simple bookstore application. Use this README as a starting point — update sections below to reflect the exact build system, runtime, and features of your project.
 
 Table of Contents
 - About
