@@ -25,5 +25,8 @@ public class WebMvcConfig implements WebMvcConfigurer {
         // Serve CSS files placed under /WEB-INF/jsp/css/ at URL path /jsp/css/**
         registry.addResourceHandler("/jsp/css/**")
                 .addResourceLocations("/WEB-INF/jsp/css/");
+        // Also expose them at /css/** so JSPs referencing /css/style.css work
+        registry.addResourceHandler("/css/**")
+            .addResourceLocations("/WEB-INF/jsp/css/");
     }
 }
